@@ -1,0 +1,7 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+pots:
+  name: Wash pots
+
+recycling:
+  name: Empty recycling

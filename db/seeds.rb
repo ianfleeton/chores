@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Chore.delete_all
+
+Chore.create!([
+  { name: "Wash pots" },
+  { name: "Empty recycling" }
+])
+
+User.delete_all
+
+User.create!([
+  { name: "Frank" },
+  { name: "Penny" }
+])
